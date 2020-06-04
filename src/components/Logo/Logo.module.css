@@ -1,0 +1,17 @@
+ .Logo{
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 100px;
+}
+ .Logo span{
+    color: #78ff00;
+}
+@media (max-width: 1090px) {
+    .Logo {
+        font-size: 24px;
+        padding-left: 70px;
+    }
+}

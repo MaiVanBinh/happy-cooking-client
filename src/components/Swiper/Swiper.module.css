@@ -1,0 +1,57 @@
+.SwiperContainer {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	z-index: 0;
+}
+.Title h2{
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #333;
+    padding: 10px 30px;
+    margin: auto;
+}
+.Title span{
+    width: 300px;
+    height: 2px;
+    background-color: #fada3e;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.SwiperSlide{
+    margin: 10px 0;
+	background-position: center;
+	background-size: cover;
+	width: 300px;
+	height: 380px;
+	background-color: #fff;
+}
+.SwiperSlide .ImgBx {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.SwiperSlide .ImgBx img{
+	width: 100%;
+	height: 100%;
+}
+.SwiperSlide .Details {
+	box-sizing: border-box;
+	font-size: 20px;
+	padding: 20px;
+}
+.SwiperSlide .Details h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.SwiperSlide .Details h3 span {
+	font-size: 16px;
+	color: #f44366;
+}
